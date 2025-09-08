@@ -1,0 +1,73 @@
+
+> zenith-server@0.1.0 dev
+> tsx watch src/index.ts
+
+zenith-server listening on http://localhost:8787
+=== ASSET REGISTRATION ENDPOINT CALLED ===
+Received 1 files for asset: Test Asset with IPFS Fixed
+Starting file uploads to Pinata IPFS...
+Processing file: test-file.txt
+Uploading test-file.txt to Pinata...
+[PINATA] Starting upload for file: test-file.txt
+[PINATA] API Key present: true, Secret present: true
+[PINATA] Making request to: https://api.pinata.cloud/pinning/pinFileToIPFS
+[PINATA] Response status: 200
+[PINATA] Response data: {
+  IpfsHash: 'Qmdr2TpDgErCAQm2aSc2pbVjiEpwBJGsKyoxmQEoCqLqCU',
+  PinSize: 30,
+  Timestamp: '2025-09-07T05:11:35.137Z',
+  ID: 'eba685c6-e279-48e8-9baa-514e9cefb5ff',
+  Name: 'test-file.txt',
+  NumberOfFiles: 1,
+  MimeType: 'text/plain',
+  GroupId: null,
+  Keyvalues: null
+}
+[PINATA] File uploaded successfully: https://gateway.pinata.cloud/ipfs/Qmdr2TpDgErCAQm2aSc2pbVjiEpwBJGsKyoxmQEoCqLqCU
+Successfully uploaded test-file.txt to IPFS: https://gateway.pinata.cloud/ipfs/Qmdr2TpDgErCAQm2aSc2pbVjiEpwBJGsKyoxmQEoCqLqCU
+=== ASSET REGISTRATION ENDPOINT CALLED ===
+Received 1 files for asset: testingnewIPFS Feature
+Starting file uploads to Pinata IPFS...
+Processing file: image.jpg.jpg
+Uploading image.jpg.jpg to Pinata...
+[PINATA] Starting upload for file: image.jpg.jpg
+[PINATA] API Key present: true, Secret present: true
+[PINATA] Making request to: https://api.pinata.cloud/pinning/pinFileToIPFS
+[PINATA] Response status: 200
+[PINATA] Response data: {
+  IpfsHash: 'QmbGtSwo396yASd1Ejz1316F63vSx3j6G5vdx132y8yEct',
+  PinSize: 125461,
+  Timestamp: '2025-09-07T10:52:50.915Z',
+  ID: 'afbb49e4-b065-4bdc-8d64-33ae9ab07371',
+  Name: 'image.jpg.jpg',
+  NumberOfFiles: 1,
+  MimeType: 'image/jpeg',
+  GroupId: null,
+  Keyvalues: null
+}
+[PINATA] File uploaded successfully: https://gateway.pinata.cloud/ipfs/QmbGtSwo396yASd1Ejz1316F63vSx3j6G5vdx132y8yEct
+Successfully uploaded image.jpg.jpg to IPFS: https://gateway.pinata.cloud/ipfs/QmbGtSwo396yASd1Ejz1316F63vSx3j6G5vdx132y8yEct
+4:25:13 PM [tsx] change in ./src/pinata.ts Restarting...
+czenith-server listening on http://localhost:8787
+=== ASSET REGISTRATION ENDPOINT CALLED ===
+Received 1 files for asset: tokenid testing
+Starting file uploads to Pinata IPFS...
+Processing file: IMG_1944.heic
+Uploading IMG_1944.heic to Pinata...
+[PINATA] Starting upload for file: IMG_1944.heic
+[PINATA] API Key present: true, Secret present: true
+[PINATA] Making request to: https://api.pinata.cloud/pinning/pinFileToIPFS
+[PINATA] Response status: 200
+[PINATA] Response data: {
+  IpfsHash: 'QmeG4a7WFyJN9RfvZLr9GVmT1yMeRQ9nP8mkDLnoqq4LfY',
+  PinSize: 2236426,
+  Timestamp: '2025-09-07T11:08:57.145Z',
+  ID: '1bb0941a-70df-445f-ba86-b65cdef1b8c0',
+  Name: 'IMG_1944.heic',
+  NumberOfFiles: 1,
+  MimeType: 'image/heic',
+  GroupId: null,
+  Keyvalues: null
+}
+[PINATA] File uploaded successfully: https://gateway.pinata.cloud/ipfs/QmeG4a7WFyJN9RfvZLr9GVmT1yMeRQ9nP8mkDLnoqq4LfY
+Successfully uploaded IMG_1944.heic to IPFS: https://gateway.pinata.cloud/ipfs/QmeG4a7WFyJN9RfvZLr9GVmT1yMeRQ9nP8mkDLnoqq4LfY
