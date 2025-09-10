@@ -7,11 +7,9 @@
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "start": "node --enable-source-maps dist/index.js",
-    "build": "tsc -p tsconfig.json",
-    "postinstall": "npm run build"
+    "build": "tsc -p tsconfig.json"
   },
   "dependencies": {
-    "@types/form-data": "^2.5.2",
     "axios": "^1.11.0",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",

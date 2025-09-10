@@ -1,8 +1,14 @@
-[providers]
-nodejs = "18"
+[variables]
+NODE_VERSION = "18"
 
-[build]
-cmds = ["npm ci", "npm run build"]
+[phases.setup]
+nixPkgs = ["nodejs_18", "npm"]
+
+[phases.install]
+cmds = ["npm ci"]
+
+[phases.build]
+cmds = ["npm run build"]
 
 [start]
 cmd = "npm start"
